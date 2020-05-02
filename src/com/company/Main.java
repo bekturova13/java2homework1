@@ -4,10 +4,9 @@ public class Main {
 
     public static void main(String[] args) {
 
-        Country objectA = new Country(198,5000000,ClimateType.MODERATE);
-        Capital objectB = new Capital(68, 80000,ClimateType.DRY,4, "Bishkek");
-        Capital objectC = new Capital(65, 30000,ClimateType.DRY,6, "Osh" ,
-                1264,"Bakytbekov");
+        Country objectA = new Country(198,5000000,ClimateType.MODERATE, 7, "Kyrgyzstan");
+        Capital objectB = new Capital(68, 80000,ClimateType.DRY,4, "Bishkek", 1912, "Kanatbekov");
+        Capital objectC = new Capital(65, 30000,ClimateType.DRY,6, "Osh" , 1264,"Bakytbekov");
 
         objectA.getInfo();
         objectB.getInfo();

@@ -22,10 +22,14 @@ public class Country extends CentralAsia {
         return name;
     }
  public void HavingDistricts(int getDistricts, String getName){
-     System.out.println(" Country " +getName +" has " + getDistricts);
+     System.out.println(" Country " +getName +" has " + getDistricts + " districts");
+    }
+    public void HavingDistricts(String getName, int getDistricts){
+
     }
     public final void CountrysArea(String getName, double getArea){
-        System.out.println(" Country " +getName +" area = " +getArea +" districts");
+        System.out.println(" Country " +getName +" area = " +getArea );
+
     }
     public void getInfo(){
         System.out.println(getName()+" "+getArea()+" "+ " "+getPopulation()+" " +getClimateType()+ " "+ getDistricts()) ;
